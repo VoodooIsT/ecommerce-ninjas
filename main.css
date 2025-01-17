@@ -1,0 +1,163 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f0ed;
+    color: #333;
+}
+header{
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+.nav-links{
+    display: flex;
+
+}
+ul{
+    list-style: none;
+}
+
+li{
+    margin-left: 1.5em;
+
+}
+a{
+    text-decoration: none;
+    padding: 0.5em;
+    color: white;
+    transition:color 1s ease;
+}
+a:hover{
+    color: #ff6347;
+}
+/*main section styling*/
+
+.hero {
+
+    height: 30vh;
+
+    background-color: #ff6347;
+
+    text-align: center;
+
+    padding: 4em;
+
+    color: white;
+
+}
+
+.container {
+
+    margin-top: 0.7rem;
+
+    line-height: 40px;
+
+}
+
+.container .cta-btn {
+    padding: 0.75em 1.5em;
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 1s ease;
+
+}
+
+.cta-btn:hover {
+    background-color: #87aaed;
+}
+.container h2{
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: .7rem;
+}
+.container p{
+    font-weight: 500;
+    font-size:1em;
+    margin-bottom: .7rem;
+}
+
+.categories{
+    padding:4em 8em;
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:1.5em;
+}
+.category{
+    background-color: #fff;
+    padding:1em;
+    border-radius: 8px;
+    box-shadow:  0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 0.9em;
+}
+.category img {
+    width: 100%;;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1em;
+}
+.category h3 {
+    font-size: 1em;
+    margin: 0;
+}
+
+/*Featured Products*/
+
+.featured-products{
+    padding:4em 8em;
+    text-align: center;
+}
+
+.featured-products h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.product{
+    background-color: #fff;
+    padding:1em;
+    border-radius: 8px;
+    box-shadow:  0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 0.9em;
+}
+.product img{
+    width: 100%;;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1em;
+}
+.product h3{
+    font-size: 1em;
+    margin: 0;
+}
+.product p{
+    font-size: 0.9em;
+    color: #ff6347;
+}
+
+.testimonials{
+    padding:4em 8em;
+    text-align: center;
+}
+.testimonials h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
