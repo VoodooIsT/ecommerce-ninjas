@@ -85,7 +85,7 @@ a:hover{
 }
 
 .categories{
-    padding:4em 8em;
+    padding:4em 4em;
     text-align: center;
 }
 
@@ -121,7 +121,7 @@ a:hover{
 /*Featured Products*/
 
 .featured-products{
-    padding:4em 8em;
+    padding:4em 4em;
     text-align: center;
 }
 
@@ -157,7 +157,7 @@ a:hover{
 .testimonials {
     background-color: #333;
     color: #fff;
-    padding: 4em 6em;
+    padding:4em 4em;
     text-align: center;
   }
   
@@ -194,6 +194,54 @@ a:hover{
   }
   
   .footer p {
-    text-align: center;
     margin: 0;
+  }
+
+  /*Media Queries for responsive design*/
+  @media (max-width: 776px) {
+    .nav-bar {
+        flex-wrap: wrap;
+        padding: 0.5em;
+        justify-content: center; /* Center content horizontally */
+        text-align: center; /* Center text items */
+    }
+  
+    .logo-container {
+        margin: 0; /* Remove margin */
+        padding: 0.5em; /* Adjust padding */
+        text-align: center; /* Center text items */
+    }
+  
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Center content horizontally */
+        align-items: center; /* Center content vertically */
+        padding: 0; /* Remove padding */
+        margin-top: 1em;
+    }
+  
+    .nav-links li {
+        margin: 0.5em;
+    }
+  
+    .nav-links a {
+        padding: 0.5em;
+    }
+  }
+
+  @media (max-width:900px) and (min-width:769px){
+    .grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+  }
+  @media (max-width:768px) and (min-width:481px){
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media (max-width:480px){
+    .grid{
+        grid-template-columns: 1fr;;
+    }
   }
